@@ -21,6 +21,7 @@ services:
       - ./python3/jpnbroot:/root/.jupyter
       - ./workspace:/workspace
 
+#GPUが不要なら削除
     environment:
       - "NVIDIA_VISIBLE_DEVICES=all"
       - "NVIDIA_DRIVER_CAPABILITIES=all"
