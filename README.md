@@ -1,2 +1,3 @@
-# mrmitcon
-マリモのITチーム用コンテナ
+# jupyter lab & python enviroment
+Jupyter labやコンソールからPythonなどを実行するための環境。
+
